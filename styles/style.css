@@ -1,0 +1,125 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* VARIABELS */
+:root {
+    --primary-color: #FB6A27;
+    --dark-color: #0f0f0f;
+    --grey-color: grey;
+
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+}
+
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GLOBAL CSS */
+section {
+    padding: 70px 0;
+}
+
+section .section-title {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-orange {
+    color: var(--primary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+/* CSS PER SECTION */
+
+/* NAVBAR */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: var(--primary-color);
+}
+
+/* HEADER */
+.header-section .header-title {
+    font-size: var(--h1-font-size);
+}
+
+.header-section .header-skill {
+    color: var(--dark-color);
+}
+
+.header-section .header-skill:hover {
+    color: var(--primary-color);
+}
+
+/* .header-section .header-skill i {
+    transition: .3s;
+} */
+/* 
+.header-section .header-skill:hover {
+    transform: rotate(-45deg);
+} */
+
+.header-section .header-img, .skills-section .skills-img {
+    width: 90%;
+}
+
+/* PORTFOLIO */
+.portfolio-section .card .card-img-top {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* responsive view to portfolio */
+@media screen and (max-width: 768px) {
+    .portfolio-section .card .card-img-top {
+        height: 100px;
+    }
+}
+
+/* SKILLS */
+footer {
+    background-color: #030304;
+}
+
+.skills-section .progress-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--grey-color);
+}
+
+.skills-section .progress-bar .progress {
+    background-color: var(--primary-color);
+}
+
+.nav-link.active {
+    color: var(--primary-color);
+}
