@@ -21,6 +21,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     max-width: 100%;
 }
@@ -59,6 +63,14 @@ section .section-title {
 
 /* CSS PER SECTION */
 
+
+.word {
+    margin: auto;
+    color: white;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+  }
+
 /* NAVBAR */
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
@@ -90,12 +102,6 @@ section .section-title {
     width: 90%;
 }
 
-.marquee {
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-  }
-  
 
 /* PORTFOLIO */
 .portfolio-section .card .card-img-top {
