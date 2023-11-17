@@ -44,3 +44,18 @@ var wordflick = function () {
 $(document).ready(function () {
   wordflick();
 });
+
+// $(document).ready(function() {
+//   // Ambil tinggi konten terbesar dari semua card
+//   var maxHeight = 0;
+
+//   $('.card-portfolio').each(function() {
+//     var cardHeight = $(this).height();
+//     if (cardHeight > maxHeight) {
+//       maxHeight = cardHeight;
+//     }
+//   });
+
+//   // Atur tinggi semua card menjadi tinggi terbesar
+//   $('.card-portfolio').height(maxHeight);
+// });

@@ -110,6 +110,7 @@ section .section-title {
     object-fit: cover;
 }
 
+
 /* responsive view to portfolio */
 @media screen and (max-width: 768px) {
     .portfolio-section .card .card-img-top {
